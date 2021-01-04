@@ -1,1 +1,6 @@
-GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/hello
+POST https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction
+Content-Type: application/json
+
+{
+    "title":"some fancy title"
+}
