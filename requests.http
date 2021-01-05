@@ -4,3 +4,6 @@ Content-Type: application/json
 {
     "title":"some fancy title"
 }
+###
+GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auctions
+
