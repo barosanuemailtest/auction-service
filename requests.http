@@ -15,7 +15,7 @@ PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/c03ed7
 Content-Type: application/json
 
 {
-    "amount":"40"
+    "amount":"41"
 }
 
 
