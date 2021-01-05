@@ -11,7 +11,7 @@ GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auctions
 GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30
 
 ###
-PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30/bid
+PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/c03ed787-44d1-41cd-b21f-00f750d9432b/bid
 Content-Type: application/json
 
 {
