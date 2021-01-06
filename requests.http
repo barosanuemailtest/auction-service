@@ -5,13 +5,13 @@ Content-Type: application/json
     "title":"some fancy title"
 }
 ###
-GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auctions?status=OPEN
+GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auctions?status=OsPEN
 
 ###
 GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30
 
 ###
-PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/36b863e2-6ec5-424b-8740-b4c17aa719bc/bid
+PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/5c051b45-1418-4aa8-b775-1cb880fbca88/bid
 Content-Type: application/json
 
 {
