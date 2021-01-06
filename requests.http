@@ -1,17 +1,20 @@
-POST https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction
+POST {{baseUrl}}/dev/auction
+Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
     "title":"some fancy title"
 }
 ###
-GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auctions?status=OsPEN
+GET {{baseUrl}}/dev/auctions?status=OsPEN
+Authorization: Bearer {{authToken}}
+###
+GET {{baseUrl}}/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30
+Authorization: Bearer {{authToken}}
 
 ###
-GET https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30
-
-###
-PATCH  https://s1gcclm283.execute-api.eu-west-1.amazonaws.com/dev/auction/5c051b45-1418-4aa8-b775-1cb880fbca88/bid
+PATCH  {{baseUrl}}/dev/auction/5c051b45-1418-4aa8-b775-1cb880fbca88/bid
+Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
