@@ -21,4 +21,7 @@ Content-Type: application/json
     "amount":"41"
 }
 
+###
+PATCH  {{baseUrl}}/dev/auction/45a92cf9-dc58-4539-9872-3a2c5a861b87/picture
+Authorization: Bearer {{authToken}}
 
