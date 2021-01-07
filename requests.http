@@ -13,7 +13,7 @@ GET {{baseUrl}}/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30
 Authorization: Bearer {{authToken}}
 
 ###
-PATCH  {{baseUrl}}/dev/auction/1fb7c7c2-7228-41f9-b8c1-d7027d7adf29/bid
+PATCH  {{baseUrl}}/dev/auction/892183fa-9c8b-4ecd-b3aa-8f920ef49edf/bid
 Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
