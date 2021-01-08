@@ -6,7 +6,7 @@ Content-Type: application/json
     "title":"some fancy title"
 }
 ###
-GET {{baseUrl}}/dev/auctions?status=OsPEN
+GET {{baseUrl}}/dev/auctions?status=OPEN
 Authorization: Bearer {{authToken}}
 ###
 GET {{baseUrl}}/dev/auction/48886d7e-57ae-4b43-8849-c670b4e4de30

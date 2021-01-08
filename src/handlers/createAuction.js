@@ -1,5 +1,7 @@
 import { v4 as uuid } from 'uuid';
-import AWS from 'aws-sdk';
+// import AWS from 'aws-sdk';
+import AWSXRay from 'aws-xray-sdk';
+const AWS = AWSXRay.captureAWS(require('aws-sdk'));
 import createError from "http-errors";
 import validator from "@middy/validator";
 import commonMiddleware from '../lib/commonMidlleware';
